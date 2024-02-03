@@ -1,0 +1,48 @@
+body {
+    background-color: #2bc4ea;
+    background-image: url('https://images.genius.com/80e5b7a42d36652f2a30fde98e74c472.1000x1000x1.jpg'); 
+    background-size: 100%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 50px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: right;
+}
+
+.idol {
+    display: inline-table;
+    margin: 28px;
+    padding: 28px;
+    border: 2px solid #dd31e0;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+.idol img {
+    max-width: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+.idol p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.idol:hover {
+    transform: scale(1.05);
+}
+
+
+#SHEENA {
+    color: blue; /* Change text color for SHEENA */
+}
+
